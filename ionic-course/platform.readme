@@ -1,0 +1,8 @@
+ionic cordova platform add ios
+ionic cordova platform add android
+ionic cordova plugin add ionic-plugin-keyboard@2.2.1
+npm install --save @ionic-native/keyboard@4.11.0
+ionic cordova emulate ios -l
+
+https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-inappbrowser/
+cordova plugin add cordova-plugin-inappbrowser
